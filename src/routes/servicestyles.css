@@ -1,0 +1,61 @@
+.container{
+    background-image: url("../images/login.jpg");
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    min-width: 400px;
+    height: fit-content;
+    width:fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,1);
+    padding: 30px;
+    flex-direction: column;
+    gap:10px;
+}
+
+.loginfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+}
+.loginfooter button{
+    outline: none;
+    border: none;
+    color:black;
+    border-radius: 5px;
+    font-size:1.2rem;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 10px 16px;
+    width: 100%;   
+    transition: 100ms; 
+}
+.loginfooter button:hover{
+    background-color:peachpuff;
+}
+.loginfooter button:disabled{
+    background-color:grey;
+}
+.loginfooter p{
+    font-weight: 700;
+}
+.loginfooter p span a{
+    font-weight: bold;
+    color:lightgreen;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.loginfooter p span a:hover{
+    color:peachpuff}
+b{
+    color:red;
+}

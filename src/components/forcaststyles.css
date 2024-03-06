@@ -1,0 +1,35 @@
+.forecast{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-forecast{
+    width: 95%;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+.forecast-day{
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 23%;
+}
+.temperature{
+    font-weight: bold;
+}
+.day{
+    color: white;
+}
+.conditions{
+    color:red;
+}
+@media screen and (max-width:650px) {
+    .forecast-day{
+        font-size: 0.7rem;
+       padding: 10px 5px;
+    }
+}

@@ -1,0 +1,107 @@
+.planner{
+    width: 100%;
+    height: fit-content;
+    background-image: url("../images/login.jpg");
+    padding-right: auto;
+    padding-left: auto;
+
+}
+.upper-container{
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgba(27, 3, 3, 0.575);
+    width: 600px;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 20px;
+    color:white;
+    font-size: 30px;
+}
+.headdd{
+    margin-bottom: 2rem;
+}
+.form-item{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+}
+.form-item input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.form-item  select{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.form-item  label{
+    font-size: 20px;
+}
+.cns{
+    margin-top: 10px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Brush Script MT', cursive;
+}
+.cns:hover{
+    background-color:peachpuff;
+    color:black;
+    border: white solid 2px;
+}
+.lower-container{
+    margin-right: auto;
+    margin-left: auto;
+    background-color:rgba(27, 3, 3, 0.575);
+    width: 600px;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 20px;
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.lower-container h2{
+    margin-bottom: 1rem;
+}
+.show-item{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+}
+@media screen and ( max-width:750px )
+{
+    .upper-container
+    {
+        width: 400px;
+        margin-top: 50px;
+    }
+    .cns{
+        width: 250px;
+    }
+    .form-item input{
+        width: 150px;
+    }
+    .form-item  select{
+        width: 150px;
+    }
+    .lower-container{
+        width: 400px;
+        margin-top: 50px;
+    }
+    
+}

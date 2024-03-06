@@ -1,0 +1,39 @@
+.trip-header{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.75);
+    background-color: peachpuff;
+
+}
+.trip-header button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+    background-color: burlywood;
+    font-family:'Brush Script MT', cursive;
+    font-weight: bold;
+    margin-right: 10px;
+}
+@media screen and (max-width:600px)
+{
+    .trip-header{
+        padding: 2rem 2rem;
+        width: 95%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .trip-header{
+        font-size: 0.8rem;
+    }
+    .trip-header button{
+        padding: 0.2rem 0.8rem
+    }
+}

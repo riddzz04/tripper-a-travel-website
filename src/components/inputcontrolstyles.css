@@ -1,0 +1,25 @@
+.container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-input label{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: left;
+}
+.container-input input{
+    border-radius:5px;
+    border:3px solid lightgreen;
+    outline: none;
+    padding:8px 15px;
+    color: black;
+}
+.container-input input:hover{
+    border-color:white;
+}
+.container-input input:focus{
+    border:3px solid peachpuff
+}
